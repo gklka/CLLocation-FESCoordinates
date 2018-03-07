@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { "Dan Weeks" => "dan@danimal.org", "Johnnie Pittman" => "jpittman@group6.net" }
   s.source       = { :git => "https://github.com/FriskyElectrocat/CLLocation-FESCoordinates.git", :tag => "1.0.0" }
-  s.platform     = :ios, '6.0'
+#  s.platform     = :ios, '6.0'
   s.source_files = 'CLLocation+FESCoordinates.{h,m}'
   s.framework    = 'CoreLocation'
   s.requires_arc = true
